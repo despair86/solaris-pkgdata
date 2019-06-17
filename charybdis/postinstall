@@ -1,0 +1,5 @@
+#!/bin/sh
+mv /opt/ircd/etc/ircd.conf.example /opt/ircd/etc/ircd.conf
+svccfg import /opt/ircd/etc/ircd.xml
+echo 'Default configuration file is /opt/ircd/etc/ircd.conf\; please review before enabling the server'
+echo 'Enable the service by running \'svcadm enable ircd\' as root'

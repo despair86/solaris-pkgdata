@@ -1,0 +1,310 @@
+i postinstall
+i pkginfo
+d none opt/ircd 0755 root root
+d none opt/ircd/help 0755 root root
+d none opt/ircd/help/opers 0755 root root
+f none opt/ircd/help/opers/post 0644 root root
+f none opt/ircd/help/opers/umode 0644 root root
+f none opt/ircd/help/opers/index 0644 root root
+f none opt/ircd/help/opers/server 0644 root root
+f none opt/ircd/help/opers/squit 0644 root root
+f none opt/ircd/help/opers/testmask 0644 root root
+f none opt/ircd/help/opers/monitor 0644 root root
+f none opt/ircd/help/opers/ping 0644 root root
+f none opt/ircd/help/opers/set 0644 root root
+f none opt/ircd/help/opers/wallops 0644 root root
+f none opt/ircd/help/opers/etrace 0644 root root
+f none opt/ircd/help/opers/links 0644 root root
+f none opt/ircd/help/opers/accept 0644 root root
+f none opt/ircd/help/opers/oper 0644 root root
+f none opt/ircd/help/opers/modrestart 0644 root root
+f none opt/ircd/help/opers/sjoin 0644 root root
+f none opt/ircd/help/opers/users 0644 root root
+f none opt/ircd/help/opers/lusers 0644 root root
+f none opt/ircd/help/opers/quit 0644 root root
+f none opt/ircd/help/opers/scan 0644 root root
+f none opt/ircd/help/opers/invite 0644 root root
+f none opt/ircd/help/opers/die 0644 root root
+f none opt/ircd/help/opers/list 0644 root root
+f none opt/ircd/help/opers/away 0644 root root
+f none opt/ircd/help/opers/snomask 0644 root root
+f none opt/ircd/help/opers/names 0644 root root
+f none opt/ircd/help/opers/time 0644 root root
+f none opt/ircd/help/opers/credits 0644 root root
+f none opt/ircd/help/opers/topic 0644 root root
+f none opt/ircd/help/opers/testgecos 0644 root root
+f none opt/ircd/help/opers/ison 0644 root root
+f none opt/ircd/help/opers/userhost 0644 root root
+f none opt/ircd/help/opers/trace 0644 root root
+f none opt/ircd/help/opers/whowas 0644 root root
+f none opt/ircd/help/opers/join 0644 root root
+f none opt/ircd/help/opers/kill 0644 root root
+f none opt/ircd/help/opers/notice 0644 root root
+f none opt/ircd/help/opers/unreject 0644 root root
+f none opt/ircd/help/opers/kline 0644 root root
+f none opt/ircd/help/opers/version 0644 root root
+f none opt/ircd/help/opers/motd 0644 root root
+f none opt/ircd/help/opers/undline 0644 root root
+f none opt/ircd/help/opers/masktrace 0644 root root
+f none opt/ircd/help/opers/error 0644 root root
+f none opt/ircd/help/opers/privmsg 0644 root root
+f none opt/ircd/help/opers/kick 0644 root root
+f none opt/ircd/help/opers/extban 0644 root root
+f none opt/ircd/help/opers/unxline 0644 root root
+f none opt/ircd/help/opers/who 0644 root root
+f none opt/ircd/help/opers/challenge 0644 root root
+f none opt/ircd/help/opers/operwall 0644 root root
+f none opt/ircd/help/opers/modlist 0644 root root
+f none opt/ircd/help/opers/pong 0644 root root
+f none opt/ircd/help/opers/rehash 0644 root root
+f none opt/ircd/help/opers/operspy 0644 root root
+f none opt/ircd/help/opers/map 0644 root root
+f none opt/ircd/help/opers/whois 0644 root root
+f none opt/ircd/help/opers/chantrace 0644 root root
+f none opt/ircd/help/opers/restart 0644 root root
+f none opt/ircd/help/opers/privs 0644 root root
+f none opt/ircd/help/opers/connect 0644 root root
+f none opt/ircd/help/opers/testline 0644 root root
+f none opt/ircd/help/opers/part 0644 root root
+f none opt/ircd/help/opers/help 0644 root root
+f none opt/ircd/help/opers/knock 0644 root root
+f none opt/ircd/help/opers/capab 0644 root root
+f none opt/ircd/help/opers/unresv 0644 root root
+f none opt/ircd/help/opers/svinfo 0644 root root
+f none opt/ircd/help/opers/xline 0644 root root
+f none opt/ircd/help/opers/pass 0644 root root
+f none opt/ircd/help/opers/dline 0644 root root
+f none opt/ircd/help/opers/uhelp 0644 root root
+f none opt/ircd/help/opers/resv 0644 root root
+f none opt/ircd/help/opers/unkline 0644 root root
+f none opt/ircd/help/opers/stats 0644 root root
+f none opt/ircd/help/opers/modload 0644 root root
+f none opt/ircd/help/opers/user 0644 root root
+f none opt/ircd/help/opers/locops 0644 root root
+f none opt/ircd/help/opers/admin 0644 root root
+f none opt/ircd/help/opers/close 0644 root root
+f none opt/ircd/help/opers/cmode 0644 root root
+f none opt/ircd/help/opers/info 0644 root root
+f none opt/ircd/help/opers/modunload 0644 root root
+f none opt/ircd/help/opers/nick 0644 root root
+f none opt/ircd/help/opers/modreload 0644 root root
+d none opt/ircd/help/users 0755 root root
+s none opt/ircd/help/users/part=opt/ircd/help/opers/part
+f none opt/ircd/help/users/stats 0644 root root
+s none opt/ircd/help/users/challenge=opt/ircd/help/opers/challenge
+s none opt/ircd/help/users/knock=opt/ircd/help/opers/knock
+s none opt/ircd/help/users/admin=opt/ircd/help/opers/admin
+s none opt/ircd/help/users/cmode=opt/ircd/help/opers/cmode
+s none opt/ircd/help/users/pong=opt/ircd/help/opers/pong
+s none opt/ircd/help/users/credits=opt/ircd/help/opers/credits
+s none opt/ircd/help/users/kick=opt/ircd/help/opers/kick
+s none opt/ircd/help/users/accept=opt/ircd/help/opers/accept
+s none opt/ircd/help/users/motd=opt/ircd/help/opers/motd
+s none opt/ircd/help/users/chantrace=opt/ircd/help/opers/chantrace
+s none opt/ircd/help/users/lusers=opt/ircd/help/opers/lusers
+s none opt/ircd/help/users/nick=opt/ircd/help/opers/nick
+f none opt/ircd/help/users/info 0644 root root
+s none opt/ircd/help/users/invite=opt/ircd/help/opers/invite
+s none opt/ircd/help/users/user=opt/ircd/help/opers/user
+s none opt/ircd/help/users/error=opt/ircd/help/opers/error
+s none opt/ircd/help/users/map=opt/ircd/help/opers/map
+s none opt/ircd/help/users/monitor=opt/ircd/help/opers/monitor
+s none opt/ircd/help/users/who=opt/ircd/help/opers/who
+s none opt/ircd/help/users/pass=opt/ircd/help/opers/pass
+s none opt/ircd/help/users/whois=opt/ircd/help/opers/whois
+s none opt/ircd/help/users/help=opt/ircd/help/opers/help
+s none opt/ircd/help/users/whowas=opt/ircd/help/opers/whowas
+f none opt/ircd/help/users/notice 0644 root root
+s none opt/ircd/help/users/names=opt/ircd/help/opers/names
+s none opt/ircd/help/users/oper=opt/ircd/help/opers/oper
+s none opt/ircd/help/users/extban=opt/ircd/help/opers/extban
+s none opt/ircd/help/users/users=opt/ircd/help/opers/users
+s none opt/ircd/help/users/ping=opt/ircd/help/opers/ping
+s none opt/ircd/help/users/userhost=opt/ircd/help/opers/userhost
+s none opt/ircd/help/users/trace=opt/ircd/help/opers/trace
+s none opt/ircd/help/users/topic=opt/ircd/help/opers/topic
+s none opt/ircd/help/users/version=opt/ircd/help/opers/version
+s none opt/ircd/help/users/join=opt/ircd/help/opers/join
+s none opt/ircd/help/users/ison=opt/ircd/help/opers/ison
+f none opt/ircd/help/users/index 0644 root root
+f none opt/ircd/help/users/privmsg 0644 root root
+f none opt/ircd/help/users/umode 0644 root root
+s none opt/ircd/help/users/time=opt/ircd/help/opers/time
+s none opt/ircd/help/users/away=opt/ircd/help/opers/away
+s none opt/ircd/help/users/links=opt/ircd/help/opers/links
+s none opt/ircd/help/users/list=opt/ircd/help/opers/list
+s none opt/ircd/help/users/quit=opt/ircd/help/opers/quit
+d none opt/ircd/etc 0755 root root
+f none opt/ircd/etc/ircd.conf.example 0644 root root
+f none opt/ircd/etc/ircd.xml 0644 root root
+f none opt/ircd/etc/reference.conf 0644 root root
+f none opt/ircd/etc/ircd.motd 0644 root root
+d none opt/ircd/bin 0755 root root
+f none opt/ircd/bin/authd 0755 root root
+f none opt/ircd/bin/ssld 0755 root root
+f none opt/ircd/bin/bantool 0755 root root
+f none opt/ircd/bin/charybdis-mkpasswd 0755 root root
+f none opt/ircd/bin/bandb 0755 root root
+f none opt/ircd/bin/wsockd 0755 root root
+f none opt/ircd/bin/charybdis 0755 root root
+f none opt/ircd/bin/charybdis-mkfingerprint 0755 root root
+d none opt/ircd/lib 0755 root root
+f none opt/ircd/lib/librb.la 0755 root root
+f none opt/ircd/lib/libircd.so 0755 root root
+d none opt/ircd/lib/pkgconfig 0755 root root
+f none opt/ircd/lib/pkgconfig/librb.pc 0644 root root
+f none opt/ircd/lib/librb.so 0755 root root
+f none opt/ircd/lib/libircd.la 0755 root root
+d none opt/ircd/modules 0755 root root
+d none opt/ircd/modules/extensions 0755 root root
+f none opt/ircd/modules/extensions/chm_sslonly_compat.so 0755 root root
+f none opt/ircd/modules/extensions/hurt.so 0755 root root
+f none opt/ircd/modules/extensions/m_remove.so 0755 root root
+f none opt/ircd/modules/extensions/m_ojoin.so 0755 root root
+f none opt/ircd/modules/extensions/extb_account.so 0755 root root
+f none opt/ircd/modules/extensions/force_user_invis.so 0755 root root
+f none opt/ircd/modules/extensions/spy_links_notice.so 0755 root root
+f none opt/ircd/modules/extensions/chm_adminonly.so 0755 root root
+f none opt/ircd/modules/extensions/chm_quietunreg_compat.so 0755 root root
+f none opt/ircd/modules/extensions/m_opme.so 0755 root root
+f none opt/ircd/modules/extensions/createauthonly.so 0755 root root
+f none opt/ircd/modules/extensions/extb_realname.so 0755 root root
+f none opt/ircd/modules/extensions/override.so 0755 root root
+f none opt/ircd/modules/extensions/ip_cloaking_old.so 0755 root root
+f none opt/ircd/modules/extensions/spy_stats_notice.so 0755 root root
+f none opt/ircd/modules/extensions/m_adminwall.so 0755 root root
+f none opt/ircd/modules/extensions/sno_whois.so 0755 root root
+f none opt/ircd/modules/extensions/m_roleplay.so 0755 root root
+f none opt/ircd/modules/extensions/chm_sslonly.so 0755 root root
+f none opt/ircd/modules/extensions/extb_server.so 0755 root root
+f none opt/ircd/modules/extensions/sno_globalkline.so 0755 root root
+f none opt/ircd/modules/extensions/no_locops.so 0755 root root
+f none opt/ircd/modules/extensions/ip_cloaking_4.0.so 0755 root root
+f none opt/ircd/modules/extensions/spy_motd_notice.so 0755 root root
+f none opt/ircd/modules/extensions/m_locops.so 0755 root root
+f none opt/ircd/modules/extensions/m_webirc.so 0755 root root
+f none opt/ircd/modules/extensions/spy_info_notice.so 0755 root root
+f none opt/ircd/modules/extensions/spy_trace_notice.so 0755 root root
+f none opt/ircd/modules/extensions/m_okick.so 0755 root root
+f none opt/ircd/modules/extensions/no_kill_services.so 0755 root root
+f none opt/ircd/modules/extensions/sno_globalnickchange.so 0755 root root
+f none opt/ircd/modules/extensions/spy_admin_notice.so 0755 root root
+f none opt/ircd/modules/extensions/extb_extgecos.so 0755 root root
+f none opt/ircd/modules/extensions/helpops.so 0755 root root
+f none opt/ircd/modules/extensions/spy_stats_p_notice.so 0755 root root
+f none opt/ircd/modules/extensions/umode_noctcp.so 0755 root root
+f none opt/ircd/modules/extensions/extb_hostmask.so 0755 root root
+f none opt/ircd/modules/extensions/extb_usermode.so 0755 root root
+f none opt/ircd/modules/extensions/m_identify.so 0755 root root
+f none opt/ircd/modules/extensions/chm_insecure.so 0755 root root
+f none opt/ircd/modules/extensions/m_mkpasswd.so 0755 root root
+f none opt/ircd/modules/extensions/m_findforwards.so 0755 root root
+f none opt/ircd/modules/extensions/sno_globaloper.so 0755 root root
+f none opt/ircd/modules/extensions/createoperonly.so 0755 root root
+f none opt/ircd/modules/extensions/restrict-unauthenticated.so 0755 root root
+f none opt/ircd/modules/extensions/m_omode.so 0755 root root
+f none opt/ircd/modules/extensions/ip_cloaking.so 0755 root root
+f none opt/ircd/modules/extensions/no_oper_invis.so 0755 root root
+f none opt/ircd/modules/extensions/sno_channelcreate.so 0755 root root
+f none opt/ircd/modules/extensions/ip_cloaking_3.0.so 0755 root root
+f none opt/ircd/modules/extensions/m_extendchans.so 0755 root root
+f none opt/ircd/modules/extensions/chm_operonly_compat.so 0755 root root
+f none opt/ircd/modules/extensions/example_module.so 0755 root root
+f none opt/ircd/modules/extensions/extb_channel.so 0755 root root
+f none opt/ircd/modules/extensions/m_sendbans.so 0755 root root
+f none opt/ircd/modules/extensions/hide_uncommon_channels.so 0755 root root
+f none opt/ircd/modules/extensions/extb_ssl.so 0755 root root
+f none opt/ircd/modules/extensions/sno_farconnect.so 0755 root root
+f none opt/ircd/modules/extensions/chm_operonly.so 0755 root root
+f none opt/ircd/modules/extensions/chm_operpeace.so 0755 root root
+f none opt/ircd/modules/extensions/extb_combi.so 0755 root root
+f none opt/ircd/modules/extensions/chm_nonotice.so 0755 root root
+f none opt/ircd/modules/extensions/extb_oper.so 0755 root root
+f none opt/ircd/modules/extensions/m_echotags.so 0755 root root
+f none opt/ircd/modules/extensions/extb_canjoin.so 0755 root root
+f none opt/ircd/modules/extensions/chantype_dummy.so 0755 root root
+f none opt/ircd/modules/m_quit.so 0755 root root
+f none opt/ircd/modules/m_server.so 0755 root root
+f none opt/ircd/modules/m_kick.so 0755 root root
+f none opt/ircd/modules/m_kill.so 0755 root root
+f none opt/ircd/modules/m_join.so 0755 root root
+f none opt/ircd/modules/m_modules.so 0755 root root
+f none opt/ircd/modules/m_part.so 0755 root root
+f none opt/ircd/modules/m_error.so 0755 root root
+f none opt/ircd/modules/m_squit.so 0755 root root
+f none opt/ircd/modules/m_mode.so 0755 root root
+d none opt/ircd/modules/autoload 0755 root root
+f none opt/ircd/modules/autoload/m_version.so 0755 root root
+f none opt/ircd/modules/autoload/m_who.so 0755 root root
+f none opt/ircd/modules/autoload/chm_noctcp.so 0755 root root
+f none opt/ircd/modules/autoload/m_signon.so 0755 root root
+f none opt/ircd/modules/autoload/m_help.so 0755 root root
+f none opt/ircd/modules/autoload/m_user.so 0755 root root
+f none opt/ircd/modules/autoload/m_tginfo.so 0755 root root
+f none opt/ircd/modules/autoload/m_knock.so 0755 root root
+f none opt/ircd/modules/autoload/m_accept.so 0755 root root
+f none opt/ircd/modules/autoload/m_testmask.so 0755 root root
+f none opt/ircd/modules/autoload/m_wallops.so 0755 root root
+f none opt/ircd/modules/autoload/cap_account_tag.so 0755 root root
+f none opt/ircd/modules/autoload/m_rehash.so 0755 root root
+f none opt/ircd/modules/autoload/m_restart.so 0755 root root
+f none opt/ircd/modules/autoload/m_alias.so 0755 root root
+f none opt/ircd/modules/autoload/m_away.so 0755 root root
+f none opt/ircd/modules/autoload/m_operspy.so 0755 root root
+f none opt/ircd/modules/autoload/m_snote.so 0755 root root
+f none opt/ircd/modules/autoload/m_privs.so 0755 root root
+f none opt/ircd/modules/autoload/m_admin.so 0755 root root
+f none opt/ircd/modules/autoload/m_list.so 0755 root root
+f none opt/ircd/modules/autoload/m_userhost.so 0755 root root
+f none opt/ircd/modules/autoload/sno_routing.so 0755 root root
+f none opt/ircd/modules/autoload/m_map.so 0755 root root
+f none opt/ircd/modules/autoload/cap_server_time.so 0755 root root
+f none opt/ircd/modules/autoload/m_users.so 0755 root root
+f none opt/ircd/modules/autoload/m_sasl.so 0755 root root
+f none opt/ircd/modules/autoload/m_trace.so 0755 root root
+f none opt/ircd/modules/autoload/m_pong.so 0755 root root
+f none opt/ircd/modules/autoload/m_capab.so 0755 root root
+f none opt/ircd/modules/autoload/m_post.so 0755 root root
+f none opt/ircd/modules/autoload/m_unreject.so 0755 root root
+f none opt/ircd/modules/autoload/m_services.so 0755 root root
+f none opt/ircd/modules/autoload/m_topic.so 0755 root root
+f none opt/ircd/modules/autoload/m_set.so 0755 root root
+f none opt/ircd/modules/autoload/m_challenge.so 0755 root root
+f none opt/ircd/modules/autoload/m_ping.so 0755 root root
+f none opt/ircd/modules/autoload/m_whowas.so 0755 root root
+f none opt/ircd/modules/autoload/m_motd.so 0755 root root
+f none opt/ircd/modules/autoload/m_stats.so 0755 root root
+f none opt/ircd/modules/autoload/chm_nocolour.so 0755 root root
+f none opt/ircd/modules/autoload/m_xline.so 0755 root root
+f none opt/ircd/modules/autoload/m_invite.so 0755 root root
+f none opt/ircd/modules/autoload/m_ison.so 0755 root root
+f none opt/ircd/modules/autoload/m_scan.so 0755 root root
+f none opt/ircd/modules/autoload/m_chghost.so 0755 root root
+f none opt/ircd/modules/autoload/m_grant.so 0755 root root
+f none opt/ircd/modules/autoload/m_info.so 0755 root root
+f none opt/ircd/modules/autoload/m_cap.so 0755 root root
+f none opt/ircd/modules/autoload/m_etrace.so 0755 root root
+f none opt/ircd/modules/autoload/m_certfp.so 0755 root root
+f none opt/ircd/modules/autoload/m_monitor.so 0755 root root
+f none opt/ircd/modules/autoload/m_starttls.so 0755 root root
+f none opt/ircd/modules/autoload/m_close.so 0755 root root
+f none opt/ircd/modules/autoload/m_lusers.so 0755 root root
+f none opt/ircd/modules/autoload/m_kline.so 0755 root root
+f none opt/ircd/modules/autoload/m_connect.so 0755 root root
+f none opt/ircd/modules/autoload/m_svinfo.so 0755 root root
+f none opt/ircd/modules/autoload/m_names.so 0755 root root
+f none opt/ircd/modules/autoload/m_links.so 0755 root root
+f none opt/ircd/modules/autoload/m_time.so 0755 root root
+f none opt/ircd/modules/autoload/m_pass.so 0755 root root
+f none opt/ircd/modules/autoload/m_tb.so 0755 root root
+f none opt/ircd/modules/autoload/m_dline.so 0755 root root
+f none opt/ircd/modules/autoload/m_resv.so 0755 root root
+f none opt/ircd/modules/autoload/m_encap.so 0755 root root
+f none opt/ircd/modules/autoload/m_whois.so 0755 root root
+f none opt/ircd/modules/autoload/m_oper.so 0755 root root
+f none opt/ircd/modules/autoload/m_testline.so 0755 root root
+f none opt/ircd/modules/m_nick.so 0755 root root
+f none opt/ircd/modules/m_message.so 0755 root root
+f none opt/ircd/modules/m_die.so 0755 root root
+f none opt/ircd/modules/m_ban.so 0755 root root
+d none opt/ircd/logs 0755 root root

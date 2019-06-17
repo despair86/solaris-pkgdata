@@ -1,0 +1,2 @@
+SVR4 packaging fluff to make selected Solaris 2.x packages from source. Most install in /opt, and may include a SMF service manifest.
+-rick

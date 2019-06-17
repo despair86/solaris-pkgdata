@@ -1,0 +1,12 @@
+PKG=SNWircd
+NAME=charybdis ircd
+ARCH=i386
+VERSION=c87c8e5bfe85c0d870c19dca4875b25a665fde96
+CATEGORY=application
+VENDOR=Snowlight Technology
+EMAIL=rick@snowlight.net
+CLASSES=none
+BASEDIR=/
+MAXINST=1
+DESC=Highly scalable IRCv3 server for UNIX-like systems. (32-bit)
+HOTLINE=https://snowlight.net
