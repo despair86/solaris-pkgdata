@@ -270,10 +270,8 @@ s none /opt/ircd/help/users/time=/opt/ircd/help/opers/time
 d none /opt/ircd/etc 0755 root root
 f none /opt/ircd/etc/ircd.conf.example 0644 root root
 f none /opt/ircd/etc/ircd.xml 0644 despair staff
-f none /opt/ircd/etc/ircd.conf.example.old 0644 root root
 f none /opt/ircd/etc/reference.conf 0644 root root
 f none /opt/ircd/etc/ircd.motd 0644 root root
-f none /opt/ircd/etc/reference.conf.old 0644 root root
 d none /opt/ircd/include 0755 root root
 d none /opt/ircd/include/libltdl 0755 root root
 f none /opt/ircd/include/libltdl/lt_system.h 0644 root root
