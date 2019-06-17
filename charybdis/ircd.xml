@@ -4,7 +4,7 @@
         Created by Manifold
 --><service_bundle type="manifest" name="ircd">
 
-    <service name="/application/irc/ircd" type="service" version="1">
+    <service name="application/irc/ircd" type="service" version="1">
 
         <create_default_instance enabled="false"/>
         
