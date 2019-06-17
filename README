@@ -1,2 +1,3 @@
 SVR4 packaging fluff to make selected Solaris 2.x packages from source. Most install in /opt, and may include a SMF service manifest.
+For use in SmartOS/Triton SDC containers, most software is built using Sun Studio 12, to avoid linking against libgcc or a version of libstdc++ that may not exist on the container by default.
 -rick
